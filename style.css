@@ -92,6 +92,11 @@ align-items: flex-start;
     background-size: contain;
 }
 
+.bf3 {
+    background: url(/assets/image/shurikn.jpg) no-repeat center;
+    background-size: cover;
+
+}
 h2 {
     color: #aec3b0;
     text-decoration: none;
@@ -126,4 +131,5 @@ text-align: center;
 background: #eff6e0;
 border:inset 1px  #124559;
 color: #124559;
+letter-spacing: 1.5px;
  }
