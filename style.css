@@ -14,13 +14,16 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     color: #01161e;
+    margin-top: 100px;
 }
 
 
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     padding: 0;
     margin-top: 100px;
 }
@@ -28,9 +31,9 @@ h1 {
 .card  {
     position: relative;
     display: flex;
-    width: 300px;
+    min-width: 300px;
     height: 450px;
-    margin: 10px;
+    margin: 40px;
     justify-content: center;
     align-items: center;
     list-style: none;
@@ -81,7 +84,7 @@ align-items: flex-start;
     transform: perspective(500px) rotatey(360deg);
 }
 .card:hover .buttonbtn {
-    transform: perspective(500px) translateZ(50px) translatex(60px);
+    transform: perspective(500px) translateZ(50px) translatex(30px);
 }
 
 .bf1 {
@@ -93,7 +96,23 @@ align-items: flex-start;
 }
 
 .bf3 {
-    background: url(/assets/image/shurikn.jpg) no-repeat center;
+    background: url(/assets/image/iam.jpg) no-repeat center;
+    background-size: cover;
+
+}
+.bf4{
+    background: url(/assets/image/carmen.jpg);
+}
+.bf5{
+    background: url(/assets/image/tone-and-i.jpg);
+}
+
+.bf6{
+    background: url(/assets/image/greenday.jpg);
+    background-size: contain;
+}
+.bf7{
+    background: url(/assets/image/cheb-mami.jpg) no-repeat;
     background-size: cover;
 
 }
@@ -109,6 +128,12 @@ h3{
     font-size: 0.9rem;
     margin:30px;
     transform: perspective(500px) translateZ(50px);
+    text-align: center;
+}
+.contraste{
+    background:#eff6e083 ;
+    border-radius: 3px;
+    padding:3px;
 }
  .buttonbtn{
     position: absolute;
