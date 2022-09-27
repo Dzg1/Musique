@@ -50,14 +50,14 @@ overflow: hidden;
 .paroles{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items:center;
     text-align: center;
     width: 500px;
    height: 500px;
     font-family: var(--poppins);
  
-padding: 5px;
+padding: 30px;
     font-size: 0.7rem;
     color: #124559;
     overflow: auto;
